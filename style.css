@@ -189,6 +189,7 @@ a {
 
 .highlightItem {
   width: 33%;
+  height:  500px;
   margin: 0 10px;
   box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.75);
@@ -221,6 +222,7 @@ a {
 .highlightText span{
     color: rgb(190, 43, 73);
     cursor: pointer;
+    display: block;
 }
 /* // Highlight CSS End */
 
@@ -263,46 +265,6 @@ input {
   -o-border-radius: 0 5px 5px 0;
 }
 /* // Update CSS End */
-
-/* Contact CSS Start */
-.contact{
-    background-color:  rgb(235, 217, 217);
-    padding:  30px 0;
-}
-
-.contactBox{
-    width:  70%;
-    margin:  0 auto;
-    display:  flex;
-    flex-wrap: nowrap;
-    justify-content:  center;
-    align-items:  center;
-    padding:  15px 0 0;
-}
-
-.contactItem{
-    width:  33%;
-    text-align:  center;
-}
-
-.contactItem img{
-    width:  50px;
-    height:  50px;
-}
-
-.contactItem h4{
-    color:  rgb(212, 55, 87);
-    font-size:  18px;
-    font-weight:  700;
-    margin:  5px 0 3px;
-}
-
-.contactItem p{
-    color:  #111;
-    font-size:  18px;
-    font-weight:  300;
-}
-/* // Contact CSS End */
 
 /* Footer CSS Start */
 .footer {
