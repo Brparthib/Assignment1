@@ -1,234 +1,325 @@
 /* Common CSS Start */
-*{
-    margin: 0;
-    padding:  0;
-    outline:  0;
-    box-sizing:  border-box;
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Lato', sans-serif;
-    color:  #fff;
+body {
+  font-family: "Lato", sans-serif;
+  color: #fff;
 }
 
-.container{
-    width:  1140px;
-    margin:  0 auto;
+.container {
+  width: 1140px;
+  margin: 0 auto;
 }
 
-a{
-    text-decoration:  none;
+a {
+  text-decoration: none;
 }
 
-.sectionTitle{
-    text-align: center;
-    color:  #111;
+.sectionTitle {
+  text-align: center;
+  color: #111;
 }
 
-.sectionTitle h2{
-    font-size: 35px;
-    font-weight:  700;
+.sectionTitle h2 {
+  font-size: 35px;
+  font-weight: 700;
 }
 
-.sectionTitle p{
-    font-size:  18px;
-    font-weight:  400;
-    margin: 10px 0;
+.sectionTitle p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0;
 }
 
-#donateBtn{
-    font-size:  18px;
-    font-weight:  400;
-    display: inline-block;
-    color: #fff;
-    background-color:  crimson;
-    padding:  10px 10px;
-    border-radius:  5px;
-    -webkit-border-radius:  5px;
-    -moz-border-radius:  5px;
-    -ms-border-radius:  5px;
-    -o-border-radius:  5px;
-    margin-top:  20px;
-    cursor: pointer;
+#donateBtn {
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-block;
+  color: #fff;
+  background-color: crimson;
+  padding: 10px 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
 }
 /* // Common CSS End */
 
 /* Banner CSS Start */
-.banner{
-    width:  100%;
-    height:  669px;
-    background-image:  url(images/donation12.png);
-    background-position: center;
-    background-repeat:  no-repeat;
-    background-size:  cover;
-    padding: 185px 0 0;
+.banner {
+  width: 100%;
+  height: 669px;
+  background-image: url(images/donation12.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px 0 0;
 }
 
-.banner .bannerText{
-    width:  826px;
-    height:  320px;
-    margin:  0 auto;
-    text-align: center;
-    padding:  0 130px;
+.banner .bannerText {
+  width: 826px;
+  height: 320px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 130px;
 }
 
-.banner .bannerText h1{
-    font-size:  40px;
-    font-weight:  700;
+.banner .bannerText h1 {
+  font-size: 40px;
+  font-weight: 700;
 }
 
-.banner .bannerText p{
-    font-size:  18px;
-    font-weight:  400;
-    margin: 10px 0;
+.banner .bannerText p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0;
 }
 /* // Banner CSS End */
 
 /* Donation CSS Start */
-.donation{
-    padding:  100px 0;
+.donation {
+  padding: 100px 0;
 }
 
-.donation .donationAmount{
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
+.donation .donationAmount {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.donation .donationAmount .fixedAmount{
-    margin:  70px 0 50px;
+.donation .donationAmount .fixedAmount {
+  margin: 70px 0 50px;
 }
 
-.donation .donationAmount .fixedAmount span{
-    font-size: 22px;
-    font-weight:  700;
-    color: #666;
-    background-color: rgb(235, 235, 235);
-    padding: 20px  15px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+.donation .donationAmount .fixedAmount span {
+  font-size: 22px;
+  font-weight: 700;
+  color: #666;
+  background-color: rgb(235, 235, 235);
+  padding: 20px 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
-#otherAmount{
-    margin:  0 auto;
-    border-bottom:  1px solid rgb(206, 204, 204);
-    width:  60%;
-    text-align: center;
-    color:  #999;
-    padding: 0 0 10px;
+#otherAmount {
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(206, 204, 204);
+  width: 60%;
+  text-align: center;
+  color: #999;
+  padding: 0 0 10px;
 }
 /* // Donation CSS End */
 
 /* Donate Plan CSS Start */
-.donatePlan{
-    padding:  0 0 100px;
+.donatePlan {
+  padding: 0 0 100px;
 }
 
-.planBox{
-    display:  flex;
-    flex-wrap:  nowrap;
-    width:  70%;
-    margin:  0 auto;
-    justify-content:  center;
-    align-items:  center;
-    padding-top: 50px;
+.planBox {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
 }
 
-.planBox .planItem{
-    width:  33%;
-    margin:  0 10px;
-    padding:  20px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    color:  #111;
+.planBox .planItem {
+  width: 33%;
+  margin: 0 10px;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: #111;
 }
 
-.bg1{
-    background-color: #80b2b8;
+.bg1 {
+  background-color: #9ecacf;
 }
 
-.bg2{
-    background-color:  #da7272;
+.bg2 {
+  background-color: #ec9c9c;
 }
 
-.bg3{
-    background-color:  #d2c087;
+.bg3 {
+  background-color: #eddca7;
 }
 
-.planBox .planItem h4{
-    font-size: 22px;
-    font-weight:  400;
-    margin:  7px 0;
+.planBox .planItem h4 {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 7px 0;
 }
 
-.planBox .planItem p{
-    font-size: 16px;
-    font-weight:  300;
+.planBox .planItem p {
+  font-size: 16px;
+  font-weight: 300;
 }
 /* // Donate Plan CSS End */
 
-/* Update CSS Start */
-.update{
-    padding: 0 0 100px;
+/* Highlights CSS Start */
+.highlight {
+  padding: 0 0 100px;
 }
 
-.inputBox{
-    width:  50%;
-    margin:  30px auto 0;
-    background-color:  #FFF4D6;
-    text-align:  center;
-    padding:  50px 0;
+.highlightBox {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top:  30px;
 }
 
-input{
-    width: 300px;
-    height: 35px;
-    border-radius:  5px 0 0 5px;
-    -webkit-border-radius:  5px 0 0 5px;
-    -moz-border-radius:  5px 0 0 5px;
-    -ms-border-radius:  5px 0 0 5px;
-    -o-border-radius:  5px 0 0 5px;
-    border: none;
-    background-color: rgb(223, 223, 223);
-    padding-left:  10px;
+.highlightItem {
+  width: 33%;
+  margin: 0 10px;
+  box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
-.subscribeBtn{
-    display: inline-block;
-    height: 35px;
-    background-color: crimson;
-    padding: 6px 20px;
+.highlightItem img {
+  display: block;
+  width: 100%;
+  height: 230px;
+}
+
+.highlightText{
+    padding:  20px;
+}
+
+.highlightText h4 {
+  color: crimson;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom:  10px;
+}
+
+.highlightText p {
+  color: #111;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.highlightText span{
+    color: rgb(190, 43, 73);
     cursor: pointer;
-    border-radius:  0 5px 5px 0;
-    -webkit-border-radius:  0 5px 5px 0;
-    -moz-border-radius:  0 5px 5px 0;
-    -ms-border-radius:  0 5px 5px 0;
-    -o-border-radius:  0 5px 5px 0;
+}
+/* // Highlight CSS End */
+
+/* Update CSS Start */
+.update {
+  padding: 0 0 100px;
+}
+
+.inputBox {
+  width: 50%;
+  margin: 30px auto 0;
+  background-color: #fff4d6;
+  text-align: center;
+  padding: 50px 0;
+}
+
+input {
+  width: 300px;
+  height: 35px;
+  border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  -ms-border-radius: 5px 0 0 5px;
+  -o-border-radius: 5px 0 0 5px;
+  border: none;
+  background-color: rgb(223, 223, 223);
+  padding-left: 10px;
+}
+
+.subscribeBtn {
+  display: inline-block;
+  height: 35px;
+  background-color: crimson;
+  padding: 6px 20px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
 }
 /* // Update CSS End */
 
-/* Footer CSS Start */
-.footer{
-    background-color:  black;
-    text-align:  center;
+/* Contact CSS Start */
+.contact{
+    background-color:  rgb(235, 217, 217);
     padding:  30px 0;
 }
 
-.footer h3{
-    color:  rgb(223, 85, 113);
-    font-size:  25px;
-    font-weight:  400;
-    font-family: 'Lobster', cursive;
+.contactBox{
+    width:  70%;
+    margin:  0 auto;
+    display:  flex;
+    flex-wrap: nowrap;
+    justify-content:  center;
+    align-items:  center;
+    padding:  15px 0 0;
 }
 
-.footer span{
-    font-size:  16px;
+.contactItem{
+    width:  33%;
+    text-align:  center;
+}
+
+.contactItem img{
+    width:  50px;
+    height:  50px;
+}
+
+.contactItem h4{
+    color:  rgb(212, 55, 87);
+    font-size:  18px;
+    font-weight:  700;
+    margin:  5px 0 3px;
+}
+
+.contactItem p{
+    color:  #111;
+    font-size:  18px;
     font-weight:  300;
+}
+/* // Contact CSS End */
+
+/* Footer CSS Start */
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer h3 {
+  color: rgb(223, 85, 113);
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Lobster", cursive;
+}
+
+.footer span {
+  font-size: 16px;
+  font-weight: 300;
 }
 /* // Footer CSS End */
